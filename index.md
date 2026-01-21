@@ -22,7 +22,6 @@ The prompt that I use was "Can you create me a code for an ESP32-C3 board that u
 ### The code that I used
 
 ```C++
-//  code with syntax highlighting.
 #include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
@@ -104,14 +103,13 @@ void loop() {
   // Update screen
   display.display();
 }
-```
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
+
+
 ```
+For My Challenge exersice 2, I was tasked to develop a portable environmental monitoring device, comprising of an ESP32-C3 board with 128x64 OLED screen which will sample and display the ambient temperature and humidity using GEN AI to create the code and simulate it in WokWi.
+The prompt that I use was "Can you create me a code for an ESP32-C3 board that uses a 128x64 OLED screen which will sample and display the ambient temperature and humidity and a DHT22 Sensor.".
+
 
 #### Header 4
 
